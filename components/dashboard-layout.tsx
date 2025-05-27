@@ -34,8 +34,6 @@ const CampaignIcon = ({ className }: { className?: string }) => (
       d="M18 8V6C18 4.89543 17.1046 4 16 4H6L2 8L6 12H16C17.1046 12 18 11.1046 18 10V8ZM18 8L22 5V11L18 8Z"
       stroke="currentColor"
       strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
     />
   </svg>
 )
