@@ -20,9 +20,9 @@ interface DashboardLayoutProps {
 const DashboardIcon = ({ className, filled = false }: { className?: string; filled?: boolean }) => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className={className}>
     {filled ? (
-      <rect x="3" y="3" width="18" height="18" rx="4" fill="currentColor" />
+      <rect x="3\" y="3\" width="18\" height="18\" rx="4\" fill="currentColor" />
     ) : (
-      <rect x="3" y="3" width="18" height="18" rx="4" stroke="currentColor" strokeWidth="2" />
+      <rect x="3\" y="3\" width="18\" height="18\" rx="4\" stroke="currentColor\" strokeWidth="2" />
     )}
     <rect x="7" y="7" width="10" height="10" rx="2" fill={filled ? "white" : "currentColor"} />
   </svg>
